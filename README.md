@@ -25,13 +25,13 @@ A production-grade Spring Boot backend powering an AI-based email reply system u
 
 # 🧠 Features
 
-- AI-powered email reply generation using Gemini  
-- REST API architecture  
-- Fully containerized backend using Docker  
-- AWS EC2 cloud deployment  
-- Secure HTTPS communication  
-- CORS enabled for frontend + Chrome Extension  
-- Production-ready scalable backend system  
+- 🤖 AI-powered email reply generation using Gemini  
+- 🔗 REST API architecture  
+- 🐳 Fully containerized backend using Docker  
+- ☁️ AWS EC2 cloud deployment  
+- 🔐 Secure HTTPS communication  
+- 🌍 CORS enabled for frontend + Chrome Extension  
+- 🚀 Production-ready scalable backend system
 
 ---
 
@@ -73,32 +73,8 @@ docker run -d -p 8080:8080 email-reply-backend
 
 # ☁️ Deployment Architecture
 
-```text
-┌──────────────────────────────────────────────┐
-│ Client (Frontend / Chrome Extension)        │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ Nginx Reverse Proxy (HTTPS Layer)           │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ Spring Boot Backend (Docker Container)      │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ Google Gemini API (AI Processing Layer)     │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│ JSON Response Returned to Client            │
-└──────────────────────────────────────────────┘
+<img width="1416" height="824" alt="ChatGPT Image May 4, 2026, 08_02_21 PM" src="https://github.com/user-attachments/assets/867d8022-9d83-416e-ad10-4ecb96f85170" />
 
-```
 
 ---
 
